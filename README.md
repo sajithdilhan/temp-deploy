@@ -98,6 +98,7 @@ Merge these keys into the existing file:
   }
 }
 ```
+#### Add missing Allowed domains. ####
 
 **Do not skip the EF Core override.** `appsettings.json` ships
 `Serilog:MinimumLevel:Default: Information` with an override for `Microsoft.AspNetCore` only.
