@@ -1,6 +1,6 @@
 # UAT release runbook — observability, logging and moderator scope
 
-**Target environment:** UAT on EC2 / IIS (`https://<host>/captain`)
+**Target environment:** UAT on EC2 / IIS (`https://<host>/site`)
 **Release date:** 2026-09-18
 **Currently deployed:** `e5e9fae` ("moderator role update", 2026-09-14)
 **Deploying:** `6298b94` plus the committed WF-021 pain-point scope fix
@@ -8,7 +8,7 @@
 This is a release-specific runbook. The evergreen hosting reference is
 [`production.md`](./production.md) — read its
 [Blocking prerequisites](./production.md#blocking-prerequisites) if this is your first
-deployment of CAPTAIN. This document covers only what is different about *this* release.
+deployment of Webapp. This document covers only what is different about *this* release.
 
 ---
 
